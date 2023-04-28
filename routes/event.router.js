@@ -59,18 +59,7 @@ eventRouter.get("/events", async (req, res) => {
 
 eventRouter.post("/events", async (req, res) => {
     try {
-        // type:"event" //* backend
-        // uid:18 (user id) //* backend
-        // name: Name of the event
-        // tagline: A proper tag-line for the event
-        // schedule: (Date + time) Timestamp
-        // description: String
-        // files[image]: Image file (File upload)
-        // moderator: A user who is going to host
-        // category: Category of the event
-        // sub_category: Sub category
-        // rigor_rank: Integer value
-        // attendees: Array of user Id's who is attending the event //* from backend
+        
 
         const {
             type, // event or article
